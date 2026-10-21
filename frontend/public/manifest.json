@@ -1,0 +1,15 @@
+{
+  "short_name": "Oficina",
+  "name": "Oficina PWA - Gestão de Oficina Mecânica",
+  "description": "Clientes, veículos e ordens de serviço.",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any maskable" },
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any maskable" }
+  ],
+  "start_url": ".",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#212529",
+  "background_color": "#f8f9fa"
+}
