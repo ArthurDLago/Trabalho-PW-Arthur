@@ -32,8 +32,8 @@ create table ordens_servico (
 );
 
 insert into clientes (nome_completo, cpf, celular, email) values
-('Maria Souza', '123.456.789-00', '(54) 99999-0000', 'maria@email.com'),
-('João Pereira', '111.222.333-44', '(54) 98888-1111', 'joao@email.com');
+('Maria Souza', '12345678900', '54999990000', 'maria@email.com'),
+('João Pereira', '11122233344', '54988881111', 'joao@email.com');
 
 insert into veiculos (placa, modelo, ano_fabricacao, cod_cliente) values
 ('ABC1D23', 'Onix', 2020, 1),

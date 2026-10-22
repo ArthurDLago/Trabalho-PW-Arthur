@@ -83,12 +83,14 @@ const Clientes = () => {
                     <div className="col-md-6">
                         <label className="form-label">CPF</label>
                         <input className="form-control" name="cpf" value={form.cpf}
-                            onChange={handleChange} required />
+                            onChange={handleChange} pattern="\d{11}" maxLength={11}
+                            title="O CPF deve ter 11 números, sem pontos e traço" placeholder="Somente números" required />
                     </div>
                     <div className="col-md-6">
                         <label className="form-label">Celular</label>
                         <input className="form-control" name="celular" value={form.celular}
-                            onChange={handleChange} />
+                            onChange={handleChange} pattern="\d{10,11}" maxLength={11}
+                            title="O celular deve ter 10 ou 11 números (DDD + número), sem espaços ou traço" placeholder="DDD + número, somente números" />
                     </div>
                     <div className="col-md-6">
                         <label className="form-label">E-mail</label>
